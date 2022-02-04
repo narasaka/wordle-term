@@ -14,8 +14,8 @@ for example, you can do this:
 ```
 cd $HOME
 git clone git@github.com:narasaka/wordle-term.git
-chmod +x wordle/wordle.sh
-echo "\n. $HOME/wordle/wordle.sh\n" >> .zshrc
+chmod +x wordle-term/wordle.sh
+echo "\n. $HOME/wordle-term/wordle.sh\n" >> .zshrc
 ```
 or if you prefer to do it manually:
 ```
@@ -25,7 +25,7 @@ chmod +x wordle.sh
 ```
 and then assuming that you cloned in your home directory, add this to your rc file:
 ```
-. $HOME/wordle/wordle.sh
+. $HOME/wordle-term/wordle.sh
 ```
 
 ## other things to note
