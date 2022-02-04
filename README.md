@@ -6,22 +6,25 @@ i made this purely out of boredom.
 don't flame me.
 
 ## install
+for zsh
+```
+git clone git@github.com:narasaka/wordle-term.git
+cd wordle-term
+chmod +x install.sh
+./install.sh
+```
+what install.sh does:
+<br>
 source wordle.sh at the end of your rc files (zshrc, bashrc, etc.)
 <br>
 generally it goes like: open your rc file -> "reference" the wordle.sh file.
 <br>
-for example, you can do this:
-```
-cd $HOME
-git clone git@github.com:narasaka/wordle-term.git
-chmod +x wordle-term/wordle.sh
-echo "\n. $HOME/wordle-term/wordle.sh\n" >> .zshrc
-```
-or if you prefer to do it manually:
+to do it manually:
 ```
 git clone git@github.com:narasaka/wordle-term.git
-cd wordle
+cd wordle-term
 chmod +x wordle.sh
+chmod +x wordle.py
 ```
 and then assuming that you cloned in your home directory, add this to your rc file:
 ```
