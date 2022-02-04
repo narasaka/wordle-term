@@ -29,6 +29,7 @@ and then assuming that you cloned in your home directory, add this to your rc fi
 ```
 
 ## other things to note
+- i made the script to run only ONCE per day so it will not show up if you create other terminal sessions
 - the wordle.sh assumes that your starting directory is $HOME, change it if that's not your preference
 - i don't know what to do with windows systems as i don't use them, so please fork if you want this on powershell or something :)
 - if you can make the installing tutorial above better or more complete, i would highly appreciate if you contribute!
