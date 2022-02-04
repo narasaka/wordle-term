@@ -18,7 +18,7 @@ chmod +x install.sh
 ```
 what install.sh does:
 <br>
-source wordle.sh at the end of your rc files (zshrc, bashrc, etc.)
+references wordle.sh at the end of your rc file (zshrc, bashrc, etc.)
 <br>
 generally it goes like: open your rc file -> "reference" the wordle.sh file.
 <br>
