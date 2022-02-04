@@ -5,6 +5,9 @@ i made this purely out of boredom.
 <br>
 don't flame me.
 
+## what it would look like
+![sample](https://github.com/narasaka/wordle-term/blob/master/sample.png?raw=true)
+
 ## install
 for zsh
 ```
